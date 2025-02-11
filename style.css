@@ -1,14 +1,28 @@
 body {
-    background-color:rgb(207, 226, 245);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: grey;
+    background-color: rgb(207, 226, 245);
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    color: darkslategray;
     margin: 50px;
+    font-family: "Public Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {
     color: rgb(69, 105, 140);
     text-decoration: none;
     /* background-color: grey; */
+}
+
+.w-100 {
+    width: 100%;
 }
 
 h1 {
@@ -24,7 +38,7 @@ h1 {
     background-color: blue;
 }
 
-.city-wrapper.london > p {
+.city-wrapper.london>p {
     font-size: 40px;
     color: white;
     font-weight: bolder;
